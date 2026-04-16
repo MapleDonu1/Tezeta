@@ -29,16 +29,16 @@ fetch('team.json')
     const playerSection = document.getElementById("player-section");
 
     team.players.forEach(player => {
-      const card = document.createElement("div");
-      card.className = "team-card";
+     const card = document.createElement("div");
+     card.className = "team-card";
 
-      card.innerHTML = `
-        <h3>${player.name}</h3>
-        <p>${player.role}</p>
-      `;
+     card.innerHTML = `
+       <h3>${player.name}</h3>
+       <p>${player.role}</p>
+     `;
 
-      playerSection.appendChild(card);
-    });
+     playerSection.appendChild(card);
+   });
   });
 </script>
 
