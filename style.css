@@ -41,3 +41,16 @@ a { text-decoration:none; color:inherit; }
   opacity: 1;
   transform: translateY(0);
 }
+
+/* PLAYER PAGE GRID (bigger cards) */
+#player-section {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* make player cards feel larger */
+#player-section .team-card {
+  padding: 25px;
+  min-height: 200px;
+  font-size: 16px;
+}
