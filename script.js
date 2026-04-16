@@ -5,7 +5,7 @@ fetch('team.json')
 
     const teamSection = document.getElementById('team-section');
 
-    const roleIcons = {
+    const roleicons = {
       Tank: "https://i.imgur.com/1uUfOtE.png",
       DPS: "https://i.imgur.com/ujYKxX2.png",
       Support: "https://i.imgur.com/uv1cYKz.png",
@@ -46,4 +46,3 @@ fetch('team.json')
     cards.forEach(card => observer.observe(card));
   })
   .catch(err => console.error('Error loading team data:', err));
-  .catch(err => console.error('Error loading team data:', err))
