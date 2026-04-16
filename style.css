@@ -70,3 +70,29 @@ a { text-decoration:none; color:inherit; }
   object-fit: contain;
   transform: scale(1.35);
 }
+
+#player-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#player-section .team-card {
+  min-height: 120px;
+  padding: 24px 20px;
+}
+
+@media (max-width: 900px) {
+  #player-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  #player-section {
+    grid-template-columns: 1fr;
+  }
+}
