@@ -49,15 +49,24 @@ a { text-decoration:none; color:inherit; }
 }
 
 #player-section .team-card {
-  padding: 28px;
-  min-height: 260px;
+  padding: 30px;
+  min-height: 280px;
   border-radius: 18px;
 }
 
 #player-section .team-card h3 {
-  font-size: 50px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 #player-section .team-card p {
-  font-size: 40px;
+  font-size: 16px;
+  color: #cfcfcf;
 }
+
+.role-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
