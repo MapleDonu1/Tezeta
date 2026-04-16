@@ -69,7 +69,7 @@
 
     ]
   },
-  {
+ {
     "name": "Camazotz",
     "role": "Overwatch CGL",
     "photo": "https://i.imgur.com/2VosThF.png",
@@ -78,6 +78,11 @@
     "players": [
       {
         "name": "LastKnight",
+        "role": "Flex",
+        "photo": "https://i.imgur.com/xaQB8Xz.png"
+      }, 
+      {
+        "name": "Heathens",
         "role": "Flex",
         "photo": "https://i.imgur.com/xaQB8Xz.png"
       },
@@ -107,12 +112,7 @@
         "photo": "https://i.imgur.com/ujYKxX2.png"
       },
       {
-        "name": "Heathens",
-        "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
-      },
-      {
-        "name": "Femsick",
+        "name": "Vienna",
         "role": "Support",
         "photo": "https://i.imgur.com/uv1cYKz.png"
       },
