@@ -96,3 +96,22 @@ a { text-decoration:none; color:inherit; }
     grid-template-columns: 1fr;
   }
 }
+
+.back-button {
+  display: inline-block;
+  margin: 24px 20px 0;
+  padding: 10px 16px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+}
