@@ -51,12 +51,10 @@ a { text-decoration:none; color:inherit; }
 }
 
 .team-page-logo {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  max-width: 30vw;
+  height: auto;
   object-fit: contain;
   display: block;
-  margin: 0 auto 24px;
-  padding: 12px;
-  background: #111;
-  border-radius: 20px;
+  margin: 0 auto 15px;
 }
