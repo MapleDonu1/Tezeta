@@ -1,72 +1,148 @@
 /* Global Styles */
-body { font-family: 'Inter', sans-serif; background:#0a0a0a; color:#fff; margin:0; }
-a { text-decoration:none; color:inherit; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0a0a0a;
+  color: #fff;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* Hero */
-.hero { text-align:center; padding:100px 20px 80px; }
-.hero h1 { font-size:3rem; margin-bottom:20px; }
-.hero p { max-width:600px; margin:0 auto; color:#a1a1a1; }
+.hero {
+  text-align: center;
+  padding: 100px 20px 80px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #a1a1a1;
+}
 
 /* Team Grid */
-.team-section { max-width:1200px; margin:0 auto; padding:60px 20px; display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:24px; }
-.team-card { position:relative; background:#111; border-radius:16px; padding:20px; text-align:center; overflow:hidden; transition:all 0.3s ease; opacity:0; transform:translateY(40px); }
-.team-card:hover { transform:translateY(-8px); box-shadow:0 10px 30px rgba(0,0,0,0.3); }
-
-.team-card img { width:100%; border-radius:12px; height:220px; object-fit:cover; transition:transform 0.3s ease; }
-.team-card:hover img { transform:scale(1.05); }
-
-.team-card h3 { margin:15px 0 5px; font-size:18px; }
-.team-card p { font-size:14px; color:#a1a1a1; margin:0; }
-
-.overlay { position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); display:flex; flex-direction:column; justify-content:center; align-items:center; opacity:0; padding:20px; transition:opacity 0.3s ease; }
-.team-card:hover .overlay { opacity:1; }
-.overlay p { color:#fff; font-size:14px; text-align:center; margin-bottom:10px; }
-.overlay a { color:#61dafb; font-weight:600; }
-
-/* CTA */
-.cta { text-align:center; padding:100px 20px; }
-.cta h2 { font-size:2.5rem; margin-bottom:30px; }
-.cta button { background:#61dafb; border:none; padding:15px 40px; border-radius:30px; font-size:1rem; font-weight:600; cursor:pointer; transition:all 0.3s ease; }
-.cta button:hover { background:#4db0e0; }
-
-/* Responsive */
-@media (max-width:768px){ .hero h1{ font-size:2.2rem; } .cta h2{ font-size:2rem; } }
-
-.role-icon {
-  width: 30px;
-  margin-top: 10px;
-}
-
-.team-card {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-#player-section {
+.team-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
 }
 
-#player-section .team-card {
-  padding: 30px;
-  min-height: 280px;
-  border-radius: 18px;
+/* TEAM CARD */
+.team-card {
+  position: relative;
+  background: #111;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(40px);
 }
 
-#player-section .team-card h3 {
-  font-size: 24px;
-  font-weight: 700;
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-#player-section .team-card p {
-  font-size: 16px;
-  color: #cfcfcf;
+/* TEAM LOGO (MAIN PAGE IMAGE) */
+.team-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
 }
 
-.role-icon {
-  width: 40px;
-  height: 40px;
+.team-card:hover .team-photo {
+  transform: scale(1.05);
+}
+
+/* TEXT */
+.team-card h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+}
+
+.team-card p {
+  font-size: 14px;
+  color: #a1a1a1;
+  margin: 0;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.team-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
   margin-bottom: 10px;
 }
 
+.overlay a {
+  color: #61dafb;
+  font-weight: 600;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.cta button {
+  background: #61dafb;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta button:hover {
+  background: #4db0e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.2rem; }
+  .cta h2 { font-size: 2rem; }
+}
