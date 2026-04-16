@@ -98,20 +98,29 @@ a { text-decoration:none; color:inherit; }
 }
 
 .back-button {
-  display: inline-block;
-  margin: 24px 20px 0;
-  padding: 10px 16px;
+  appearance: none;
+  -webkit-appearance: none;
+
   background: #111;
   color: #fff;
-  border: none;
+
+  border: 1px solid #222;
   border-radius: 10px;
-  font-weight: 600;
+
+  padding: 10px 16px;
+  margin: 20px;
+
   font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.3s ease;
+
+  transition: all 0.25s ease;
 }
 
 .back-button:hover {
   background: #1a1a1a;
+  border-color: #333;
   transform: translateY(-2px);
 }
