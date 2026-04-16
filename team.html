@@ -23,22 +23,25 @@ fetch('team.json')
   .then(data => {
     const team = data.find(t => t.teampage === teamId);
 
+    console.log("TEAM:", team);
+    console.log("PLAYERS:", team?.players);
+
     document.getElementById("team-name").textContent = team.name;
     document.getElementById("team-role").textContent = team.role;
 
     const playerSection = document.getElementById("player-section");
 
     team.players.forEach(player => {
-     const card = document.createElement("div");
-     card.className = "team-card";
+      const card = document.createElement("div");
+      card.className = "team-card";
 
-     card.innerHTML = `
-       <h3>${player.name}</h3>
-       <p>${player.role}</p>
-     `;
+      card.innerHTML = `
+        <h3>${player.name}</h3>
+        <p>${player.role}</p>
+      `;
 
-     playerSection.appendChild(card);
-   });
+      playerSection.appendChild(card);
+    });
   });
 </script>
 
