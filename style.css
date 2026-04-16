@@ -50,15 +50,16 @@ a { text-decoration:none; color:inherit; }
   border-radius: 12px;
 }
 
+.team-hero {
+  padding: 40px 20px 30px;
+}
+
 .team-page-logo {
-  width: clamp(140px, 12vw, 220px);
+  width: 180px;
   height: auto;
   object-fit: contain;
   display: block;
   margin: 0 auto 20px;
-}
-
-.team-page-logo {
   background: #111;
   padding: 10px;
   border-radius: 16px;
