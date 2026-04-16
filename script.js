@@ -2,6 +2,8 @@
 fetch('team.json')
   .then(response => response.json())
   .then(data => {
+    console.log("Loaded data:", data);
+    
     const teamSection = document.getElementById('team-section');
 
     data.forEach(member => {
