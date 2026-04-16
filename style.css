@@ -57,3 +57,9 @@ a { text-decoration:none; color:inherit; }
   display: block;
   margin: 0 auto 20px;
 }
+
+.team-page-logo {
+  background: #111;
+  padding: 10px;
+  border-radius: 16px;
+}
