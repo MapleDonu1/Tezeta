@@ -97,26 +97,26 @@ a { text-decoration:none; color:inherit; }
   }
 }
 
+.back-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .back-button {
   appearance: none;
   -webkit-appearance: none;
-
+  display: inline-block;
   background: #111;
   color: #fff;
-
   border: 1px solid #222;
   border-radius: 10px;
-
   padding: 10px 16px;
   margin: 20px;
-
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 600;
-
-  cursor: pointer;
-
   transition: all 0.25s ease;
+  text-decoration: none;
 }
 
 .back-button:hover {
