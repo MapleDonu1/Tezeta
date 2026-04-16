@@ -8,11 +8,11 @@
     "players": [
       {
         "name": "Jb",
-        "role": "Tank",
+        "role": "Tank"
       },
       {
         "name": "Micro",
-        "role": "DPS",
+        "role": "DPS"
       }
     ]
   },
@@ -25,31 +25,31 @@
     "players": [
       {
         "name": "M21x",
-        "role": "Tank",
+        "role": "Tank"
       },
       {
         "name": "Maple",
-        "role": "DPS",
+        "role": "DPS"
       },
       {
         "name": "Rwby",
-        "role": "DPS",
+        "role": "DPS"
       },
       {
         "name": "Ndy",
-        "role": "DPS",
+        "role": "DPS"
       },
       {
         "name": "Hidden",
-        "role": "Support",
+        "role": "Support"
       },
       {
         "name": "Spring",
-        "role": "Support",
+        "role": "Support"
       },
       {
         "name": "DBRX",
-        "role": "Support",
+        "role": "Support"
       }
     ]
   },
@@ -62,11 +62,11 @@
     "players": [
       {
         "name": "LastKnight",
-        "role": "Flex",
+        "role": "Flex"
       },
       {
         "name": "Azrael",
-        "role": "Tank",
+        "role": "Tank"
       }
     ]
   }
