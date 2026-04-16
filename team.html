@@ -8,6 +8,7 @@
 <body>
 
 <section class="hero">
+  <img id="team-logo" class="team-page-logo" src="" alt="Team logo">
   <h1 id="team-name"></h1>
   <p id="team-role"></p>
 </section>
@@ -37,7 +38,6 @@ const roleIcons = {
 fetch('team.json')
   .then(res => res.json())
   .then(data => {
-
     const team = data.find(t => t.teampage === teamId);
 
     if (!team) {
@@ -47,6 +47,8 @@ fetch('team.json')
 
     document.getElementById("team-name").textContent = team.name;
     document.getElementById("team-role").textContent = team.role;
+    document.getElementById("team-logo").src = team.photo;
+    document.getElementById("team-logo").alt = `${team.name} logo`;
 
     const playerSection = document.getElementById("player-section");
     playerSection.innerHTML = "";
@@ -55,24 +57,18 @@ fetch('team.json')
       const card = document.createElement("div");
       card.className = "team-card";
 
-      // 🎨 gradient background
       card.style.background = roleColors[player.role] || "#111";
 
       card.innerHTML = `
         <h3>${player.name}</h3>
-
         <p style="display:flex; align-items:center; justify-content:center; gap:8px;">
-          <img 
-            src="${roleIcons[player.role]}" 
-            style="width:20px; height:20px;"
-          >
+          <img src="${roleIcons[player.role]}" style="width:20px; height:20px;" alt="${player.role} icon">
           ${player.role}
         </p>
       `;
 
       playerSection.appendChild(card);
     });
-
   })
   .catch(err => {
     console.error("Error loading team data:", err);
