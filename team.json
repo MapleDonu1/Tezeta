@@ -6,8 +6,16 @@
     "bio": "Top 8 MRC team",
     "teampage": "tezeta",
     "players": [
-      { "name": "Jb", "role": "Tank" },
-      { "name": "Micro", "role": "DPS" }
+      {
+        "name": "Jb",
+        "role": "Tank"
+        "photo": "https://i.imgur.com/1uUfOtE.png"
+      },
+      {
+        "name": "Micro",
+        "role": "Dps"
+        "photo": "https://i.imgur.com/ujYKxX2.png"
+      }
     ]
   },
   {
@@ -17,13 +25,41 @@
     "bio": "Open tier CGL team",
     "teampage": "subsun",
     "players": [
-      { "name": "M21x", "role": "DPS" },
-      { "name": "Maple", "role": "DPS" },
-      { "name": "Rwby", "role": "DPS" },
-      { "name": "Ndy", "role": "DPS" },
-      { "name": "Hidden", "role": "DPS" },
-      { "name": "Spring", "role": "DPS" },
-      { "name": "DBRX", "role": "DPS" }
+      {
+        "name": "M21x",
+        "role": "Tank"
+        "photo": "https://i.imgur.com/1uUfOtE.png"
+      },
+      {
+        "name": "Maple",
+        "role": "DPS"
+        "photo": "https://i.imgur.com/ujYKxX2.png"
+      },
+      {
+        "name": "Rwby",
+        "role": "DPS"
+        "photo": "https://i.imgur.com/ujYKxX2.png"
+      },
+      {
+        "name": "Ndy",
+        "role": "DPS"
+        "photo": "https://i.imgur.com/ujYKxX2.png"
+      },
+      {
+        "name": "Hidden",
+        "role": "Support"
+        "photo": "https://i.imgur.com/uv1cYKz.png"
+      },
+      {
+        "name": "Spring",
+        "role": "Support"
+        "photo": "https://i.imgur.com/uv1cYKz.png"
+      },
+      {
+        "name": "DBRX",
+        "role": "Support"
+        "photo": "https://i.imgur.com/uv1cYKz.png"
+      }
     ]
   },
   {
@@ -33,8 +69,15 @@
     "bio": "Gm tier CGL team",
     "teampage": "camazotz",
     "players": [
-      { "name": "LastKnight", "role": "Flex" },
-      { "name": "Azrael", "role": "Tank" }
-    ]
+      {
+        "name": "LastKnight",
+        "role": "Flex"
+        "photo": "https://i.imgur.com/xaQB8Xz.png"
+      },
+      {
+        "name": "Azrael",
+        "role": "Tank"
+        "photo": "https://i.imgur.com/1uUfOtE.png"
+      },
   }
 ]
