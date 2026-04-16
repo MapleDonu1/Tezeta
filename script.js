@@ -49,10 +49,16 @@ fetch('team.json')
   })
   .catch(err => console.error('Error loading team data:', err));
 
-document.getElementById("back-button").addEventListener("click", () => {
-  if (window.history.length > 1) {
-    window.history.back();
-  } else {
-    window.location.href = "index.html";
+document.addEventListener("DOMContentLoaded", () => {
+  const backBtn = document.getElementById("back-button");
+
+  if (backBtn) {
+    backBtn.addEventListener("click", () => {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "index.html";
+      }
+    });
   }
 });
