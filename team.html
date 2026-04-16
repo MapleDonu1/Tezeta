@@ -33,8 +33,8 @@ fetch('team.json')
       card.className = "team-card";
 
       card.innerHTML = `
-        <h3>${player}</h3>
-        <p>Player</p>
+        <h3>${player.name}</h3>
+        <p>${player.role}</p>
       `;
 
       playerSection.appendChild(card);
