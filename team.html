@@ -18,30 +18,65 @@
 const params = new URLSearchParams(window.location.search);
 const teamId = params.get("team");
 
+// 🎨 Role gradients
+const roleColors = {
+  Tank: "linear-gradient(135deg, #1e3a8a, #0f172a)",
+  DPS: "linear-gradient(135deg, #7f1d1d, #0f172a)",
+  Support: "linear-gradient(135deg, #166534, #0f172a)",
+  Flex: "linear-gradient(135deg, #111827, #0f172a)"
+};
+
+// 🖼️ Role icons
+const roleIcons = {
+  Tank: "https://i.imgur.com/1uUfOtE.png",
+  DPS: "https://i.imgur.com/ujYKxX2.png",
+  Support: "https://i.imgur.com/uv1cYKz.png",
+  Flex: "https://i.imgur.com/xaQB8Xz.png"
+};
+
 fetch('team.json')
   .then(res => res.json())
   .then(data => {
+
     const team = data.find(t => t.teampage === teamId);
 
-    console.log("TEAM:", team);
-    console.log("PLAYERS:", team?.players);
+    if (!team) {
+      document.getElementById("team-name").textContent = "Team not found";
+      return;
+    }
 
     document.getElementById("team-name").textContent = team.name;
     document.getElementById("team-role").textContent = team.role;
 
     const playerSection = document.getElementById("player-section");
+    playerSection.innerHTML = "";
 
     team.players.forEach(player => {
       const card = document.createElement("div");
       card.className = "team-card";
 
+      // 🎨 gradient background
+      card.style.background = roleColors[player.role] || "#111";
+
       card.innerHTML = `
         <h3>${player.name}</h3>
-        <p>${player.role}</p>
+
+        <p style="display:flex; align-items:center; justify-content:center; gap:8px;">
+          <img 
+            src="${roleIcons[player.role]}" 
+            style="width:20px; height:20px;"
+          >
+          ${player.role}
+        </p>
       `;
 
       playerSection.appendChild(card);
     });
+
+  })
+  .catch(err => {
+    console.error("Error loading team data:", err);
+    document.getElementById("team-name").textContent = "Error loading team";
   });
 </script>
 
