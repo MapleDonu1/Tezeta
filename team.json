@@ -9,12 +9,10 @@
       {
         "name": "Jb",
         "role": "Tank",
-        "photo": "https://i.imgur.com/1uUfOtE.png"
       },
       {
         "name": "Micro",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
       }
     ]
   },
@@ -28,37 +26,30 @@
       {
         "name": "M21x",
         "role": "Tank",
-        "photo": "https://i.imgur.com/1uUfOtE.png"
       },
       {
         "name": "Maple",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "Rwby",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "Ndy",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "Hidden",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
       },
       {
         "name": "Spring",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
       },
       {
         "name": "DBRX",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
       }
     ]
   },
@@ -72,12 +63,10 @@
       {
         "name": "LastKnight",
         "role": "Flex",
-        "photo": "https://i.imgur.com/xaQB8Xz.png"
       },
       {
         "name": "Azrael",
         "role": "Tank",
-        "photo": "https://i.imgur.com/1uUfOtE.png"
       }
     ]
   }
