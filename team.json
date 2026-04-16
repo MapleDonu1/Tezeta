@@ -4,7 +4,7 @@
     "role": "Marvel Rivals MRC",
     "photo": "https://i.imgur.com/cvW4wV0.png",
     "bio": "Top 8 MRC team",
-    "teampage": "tezeta"
+    "teampage": "tezeta",
     "players": [
       { "name": "Jb", "role": "Tank" },
       { "name": "Micro", "role": "DPS" }
@@ -15,7 +15,7 @@
     "role": "Overwatch CGL",
     "photo": "https://i.imgur.com/IuHdD9O.png",
     "bio": "Open tier CGL team",
-    "teampage": "subsun"
+    "teampage": "subsun",
     "players": [
       { "name": "M21x", "role": "DPS" },
       { "name": "Maple", "role": "DPS" },
@@ -31,7 +31,7 @@
     "role": "Overwatch CGL",
     "photo": "https://i.imgur.com/2VosThF.png",
     "bio": "Gm tier CGL team",
-    "teampage": "camazotz"
+    "teampage": "camazotz",
     "players": [
       { "name": "LastKnight", "role": "Flex" },
       { "name": "Azrael", "role": "Tank" }
