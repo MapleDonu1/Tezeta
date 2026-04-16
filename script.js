@@ -48,3 +48,11 @@ fetch('team.json')
     cards.forEach(card => observer.observe(card));
   })
   .catch(err => console.error('Error loading team data:', err));
+
+document.getElementById("back-button").addEventListener("click", () => {
+  if (window.history.length > 1) {
+    window.history.back();
+  } else {
+    window.location.href = "index.html";
+  }
+});
