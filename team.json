@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Tezeta",
+    "role": "Marvel Rivals MRC",
+    "photo": "https://i.imgur.com/cvW4wV0.png",
+    "bio": "Top 8 MRC team",
+    "teampage": "tezeta"
+    "players": [
+      { "name": "Jb", "role": "Tank" },
+      { "name": "Micro", "role": "DPS" }
+    ]
+  },
+  {
+    "name": "Subsun",
+    "role": "Overwatch CGL",
+    "photo": "https://i.imgur.com/IuHdD9O.png",
+    "bio": "Open tier CGL team",
+    "teampage": "subsun"
+    "players": [
+      { "name": "M21x", "role": "DPS" },
+      { "name": "Maple", "role": "DPS" },
+      { "name": "Rwby", "role": "DPS" },
+      { "name": "Ndy", "role": "DPS" },
+      { "name": "Hidden", "role": "DPS" },
+      { "name": "Spring", "role": "DPS" },
+      { "name": "DBRX", "role": "DPS" }
+    ]
+  },
+  {
+    "name": "Camazotz",
+    "role": "Overwatch CGL",
+    "photo": "https://i.imgur.com/2VosThF.png",
+    "bio": "Gm tier CGL team",
+    "teampage": "camazotz"
+    "players": [
+      { "name": "LastKnight", "role": "Flex" },
+      { "name": "Azrael", "role": "Tank" }
+    ]
+  }
+]

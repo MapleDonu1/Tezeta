@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Team</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1 id="team-name"></h1>
+  <p id="team-role"></p>
+</section>
+
+<section class="team-section" id="player-section"></section>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const teamId = params.get("team");
+
+fetch('team.json')
+  .then(res => res.json())
+  .then(data => {
+    const team = data.find(t => t.teampage === teamId);
+
+    document.getElementById("team-name").textContent = team.name;
+    document.getElementById("team-role").textContent = team.role;
+
+    const playerSection = document.getElementById("player-section");
+
+    team.players.forEach(player => {
+      const card = document.createElement("div");
+      card.className = "team-card";
+
+      card.innerHTML = `
+        <h3>${player}</h3>
+        <p>Player</p>
+      `;
+
+      playerSection.appendChild(card);
+    });
+  });
+</script>
+
+</body>
+</html>
