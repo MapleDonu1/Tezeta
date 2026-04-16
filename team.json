@@ -1,3 +1,4 @@
+
 [
   {
     "name": "Tezeta",
@@ -36,12 +37,12 @@
         "photo": "https://i.imgur.com/ujYKxX2.png"
       },
       {
-        "name": "Rwby",
+        "name": "rwby",
         "role": "DPS",
         "photo": "https://i.imgur.com/ujYKxX2.png"
       },
       {
-        "name": "Ndy",
+        "name": "ndy",
         "role": "DPS",
         "photo": "https://i.imgur.com/ujYKxX2.png"
       },
@@ -59,7 +60,13 @@
         "name": "DBRX",
         "role": "Support",
         "photo": "https://i.imgur.com/uv1cYKz.png"
+      },
+      {
+        "name": "Paticko",
+        "role": "Support",
+        "photo": "https://i.imgur.com/uv1cYKz.png"
       }
+
     ]
   },
   {
@@ -78,6 +85,46 @@
         "name": "Azrael",
         "role": "Tank",
         "photo": "https://i.imgur.com/1uUfOtE.png"
+      },
+      {
+        "name": "Shadow",
+        "role": "Tank",
+        "photo": "https://i.imgur.com/1uUfOtE.png"
+      },
+      {
+        "name": "Kirby",
+        "role": "DPS",
+        "photo": "https://i.imgur.com/ujYKxX2.png"
+      },
+      {
+        "name": "Sorrow",
+        "role": "DPS",
+        "photo": "https://i.imgur.com/ujYKxX2.png"
+      },
+      {
+        "name": "Boeing",
+        "role": "DPS",
+        "photo": "https://i.imgur.com/ujYKxX2.png"
+      },
+      {
+        "name": "Heathens",
+        "role": "DPS",
+        "photo": "https://i.imgur.com/ujYKxX2.png"
+      },
+      {
+        "name": "Femsick",
+        "role": "Support",
+        "photo": "https://i.imgur.com/uv1cYKz.png"
+      },
+      {
+        "name": "Syn",
+        "role": "Support",
+        "photo": "https://i.imgur.com/uv1cYKz.png"
+      },
+      {
+        "name": "Jwam",
+        "role": "Support",
+        "photo": "https://i.imgur.com/uv1cYKz.png"
       }
     ]
   }
