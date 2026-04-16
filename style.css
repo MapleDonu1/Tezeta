@@ -51,10 +51,9 @@ a { text-decoration:none; color:inherit; }
 }
 
 .team-page-logo {
-  width: 120px;
-  max-width: 30vw;
+  width: clamp(140px, 12vw, 220px);
   height: auto;
   object-fit: contain;
   display: block;
-  margin: 0 auto 15px;
+  margin: 0 auto 20px;
 }
