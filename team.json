@@ -69,7 +69,7 @@
 
     ]
   },
- {
+  {
     "name": "Camazotz",
     "role": "Overwatch CGL",
     "photo": "https://i.imgur.com/2VosThF.png",
@@ -125,6 +125,26 @@
         "name": "Jwam",
         "role": "Support",
         "photo": "https://i.imgur.com/uv1cYKz.png"
+      }
+
+    ]
+  },
+  {
+    "name": "Cerberus",
+    "role": "Overwatch CGL",
+    "photo": "https://i.imgur.com/u6mmpTR.png",
+    "bio": "Masters tier CGL team",
+    "teampage": "Cerberus",
+    "players": [
+      {
+        "name": "Azrael",
+        "role": "Tank",
+        "photo": "https://i.imgur.com/1uUfOtE.png"
+      },
+      {
+        "name": "Maple",
+        "role": "DPS",
+        "photo": "https://i.imgur.com/ujYKxX2.png"
       }
     ]
   }
