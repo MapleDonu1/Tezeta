@@ -20,27 +20,27 @@ a { text-decoration:none; color:inherit; }
 
 .overlay {
   position: absolute;
-  inset: 0; /* cleaner than top/left/width/height */
+  inset: 0;
   background: rgba(0,0,0,0.85);
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   text-align: center;
-
   padding: 20px;
-  gap: 12px; /* spacing between text + button */
-
+  gap: 12px;
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+
+.team-card:hover .overlay {
+  opacity: 1;
 }
 
 .overlay p {
   color: #fff;
   font-size: 14px;
-  max-width: 200px; /* keeps text from stretching weirdly */
+  max-width: 200px;
   margin: 0;
 }
 
