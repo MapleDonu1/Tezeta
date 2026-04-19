@@ -154,14 +154,19 @@ a { text-decoration:none; color:inherit; }
 .hero-icons {
   display: flex;
   justify-content: center;
-  gap: 8px;
-  margin-top: 14px;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
 }
 
-.hero-icon {
+#player-section .hero-icon {
   width: 36px;
   height: 36px;
   object-fit: cover;
   border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+#player-section .hero-icon:hover {
+  transform: scale(1.1);
 }
