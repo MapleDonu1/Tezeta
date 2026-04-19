@@ -11,11 +11,21 @@
         "name": "Jb",
         "role": "Tank",
         "roleicon": "https://i.imgur.com/1uUfOtE.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Micro",
         "role": "DPS",
         "roleicon": "https://i.imgur.com/ujYKxX2.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       }
     ]
   },
@@ -30,41 +40,81 @@
         "name": "M21x",
         "role": "Tank",
         "roleicon": "https://i.imgur.com/1uUfOtE.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Maple",
         "role": "DPS",
         "roleicon": "https://i.imgur.com/ujYKxX2.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "rwby",
         "role": "DPS",
         "roleicon": "https://i.imgur.com/ujYKxX2.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "ndy",
         "role": "DPS",
         "roleicon": "https://i.imgur.com/ujYKxX2.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Hidden",
         "role": "Support",
         "roleicon": "https://i.imgur.com/uv1cYKz.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Spring",
         "role": "Support",
         "roleicon": "https://i.imgur.com/uv1cYKz.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "DBRX",
         "role": "Support",
         "roleicon": "https://i.imgur.com/uv1cYKz.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Paticko",
         "role": "Support",
         "roleicon": "https://i.imgur.com/uv1cYKz.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       }
 
     ]
@@ -80,51 +130,101 @@
         "name": "LastKnight",
         "role": "Flex",
         "roleicon": "https://i.imgur.com/xaQB8Xz.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       }, 
       {
         "name": "Heathens",
         "role": "Flex",
         "roleicon": "https://i.imgur.com/xaQB8Xz.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Azrael",
         "role": "Tank",
         "roleicon": "https://i.imgur.com/1uUfOtE.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Shadow",
         "role": "Tank",
         "roleicon": "https://i.imgur.com/1uUfOtE.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Kirby",
         "role": "DPS",
         "roleicon": "https://i.imgur.com/ujYKxX2.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Sorrow",
         "role": "DPS",
         "roleicon": "https://i.imgur.com/ujYKxX2.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Boeing",
         "role": "DPS",
         "roleicon": "https://i.imgur.com/ujYKxX2.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Vienna",
         "role": "Support",
         "roleicon": "https://i.imgur.com/uv1cYKz.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Syn",
         "role": "Support",
         "roleicon": "https://i.imgur.com/uv1cYKz.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Jwam",
         "role": "Support",
         "roleicon": "https://i.imgur.com/uv1cYKz.png"
+        "heroes": [
+          "https://i.imgur.com/KpUh5fe.png",
+          "https://i.imgur.com/KpUh5fe.png",
+          "https://i.imgur.com/KpUh5fe.png"
+        ]
       }
 
     ]
@@ -140,11 +240,21 @@
         "name": "Azrael",
         "role": "Tank",
         "roleicon": "https://i.imgur.com/1uUfOtE.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       },
       {
         "name": "Maple",
         "role": "DPS",
         "roleicon": "https://i.imgur.com/ujYKxX2.png"
+        "heroes": [
+          "https://example.com/hero4.png",
+          "https://example.com/hero5.png",
+          "https://example.com/hero6.png"
+        ]
       }
     ]
   }
