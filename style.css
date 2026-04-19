@@ -150,3 +150,18 @@ a { text-decoration:none; color:inherit; }
   border-color: #333;
   transform: translateY(-2px);
 }
+
+.hero-icons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.hero-icon {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 8px;
+}
