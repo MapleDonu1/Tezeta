@@ -5,13 +5,6 @@ fetch('team.json')
 
     const teamSection = document.getElementById('team-section');
 
-    const roleIcons = {
-      Tank: "https://i.imgur.com/1uUfOtE.png",
-      DPS: "https://i.imgur.com/ujYKxX2.png",
-      Support: "https://i.imgur.com/uv1cYKz.png",
-      Flex: "https://i.imgur.com/xaQB8Xz.png"
-    };
-
     data.forEach(team => {
       const card = document.createElement('div');
       card.className = 'team-card fade-in';
