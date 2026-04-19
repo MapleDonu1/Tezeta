@@ -10,12 +10,12 @@
       {
         "name": "Jb",
         "role": "Tank",
-        "photo": "https://i.imgur.com/1uUfOtE.png"
+        "roleicon": "https://i.imgur.com/1uUfOtE.png"
       },
       {
         "name": "Micro",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
+        "roleicon": "https://i.imgur.com/ujYKxX2.png"
       }
     ]
   },
@@ -29,42 +29,42 @@
       {
         "name": "M21x",
         "role": "Tank",
-        "photo": "https://i.imgur.com/1uUfOtE.png"
+        "roleicon": "https://i.imgur.com/1uUfOtE.png"
       },
       {
         "name": "Maple",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
+        "roleicon": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "rwby",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
+        "roleicon": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "ndy",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
+        "roleicon": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "Hidden",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
+        "roleicon": "https://i.imgur.com/uv1cYKz.png"
       },
       {
         "name": "Spring",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
+        "roleicon": "https://i.imgur.com/uv1cYKz.png"
       },
       {
         "name": "DBRX",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
+        "roleicon": "https://i.imgur.com/uv1cYKz.png"
       },
       {
         "name": "Paticko",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
+        "roleicon": "https://i.imgur.com/uv1cYKz.png"
       }
 
     ]
@@ -79,52 +79,52 @@
       {
         "name": "LastKnight",
         "role": "Flex",
-        "photo": "https://i.imgur.com/xaQB8Xz.png"
+        "roleicon": "https://i.imgur.com/xaQB8Xz.png"
       }, 
       {
         "name": "Heathens",
         "role": "Flex",
-        "photo": "https://i.imgur.com/xaQB8Xz.png"
+        "roleicon": "https://i.imgur.com/xaQB8Xz.png"
       },
       {
         "name": "Azrael",
         "role": "Tank",
-        "photo": "https://i.imgur.com/1uUfOtE.png"
+        "roleicon": "https://i.imgur.com/1uUfOtE.png"
       },
       {
         "name": "Shadow",
         "role": "Tank",
-        "photo": "https://i.imgur.com/1uUfOtE.png"
+        "roleicon": "https://i.imgur.com/1uUfOtE.png"
       },
       {
         "name": "Kirby",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
+        "roleicon": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "Sorrow",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
+        "roleicon": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "Boeing",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
+        "roleicon": "https://i.imgur.com/ujYKxX2.png"
       },
       {
         "name": "Vienna",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
+        "roleicon": "https://i.imgur.com/uv1cYKz.png"
       },
       {
         "name": "Syn",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
+        "roleicon": "https://i.imgur.com/uv1cYKz.png"
       },
       {
         "name": "Jwam",
         "role": "Support",
-        "photo": "https://i.imgur.com/uv1cYKz.png"
+        "roleicon": "https://i.imgur.com/uv1cYKz.png"
       }
 
     ]
@@ -139,12 +139,12 @@
       {
         "name": "Azrael",
         "role": "Tank",
-        "photo": "https://i.imgur.com/1uUfOtE.png"
+        "roleicon": "https://i.imgur.com/1uUfOtE.png"
       },
       {
         "name": "Maple",
         "role": "DPS",
-        "photo": "https://i.imgur.com/ujYKxX2.png"
+        "roleicon": "https://i.imgur.com/ujYKxX2.png"
       }
     ]
   }
