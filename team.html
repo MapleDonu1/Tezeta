@@ -25,15 +25,12 @@
 const params = new URLSearchParams(window.location.search);
 const teamId = params.get("team");
 
-// 🎨 Role gradients
 const roleColors = {
   Tank: "linear-gradient(135deg, #1e3a8a, #0f172a)",
   DPS: "linear-gradient(135deg, #7f1d1d, #0f172a)",
   Support: "linear-gradient(135deg, #166534, #0f172a)",
   Flex: "linear-gradient(135deg, #111827, #0f172a)"
 };
-
-
 
 fetch('team.json')
   .then(res => res.json())
@@ -59,12 +56,20 @@ fetch('team.json')
 
       card.style.background = roleColors[player.role] || "#111";
 
+      const heroImages = (player.heroes || [])
+        .slice(0, 3)
+        .map(hero => `<img class="hero-icon" src="${hero}" alt="${player.name} hero">`)
+        .join("");
+
       card.innerHTML = `
         <h3>${player.name}</h3>
         <p style="display:flex; align-items:center; justify-content:center; gap:8px;">
           <img src="${player.roleicon}" style="width:20px; height:20px;" alt="${player.role} icon">
           ${player.role}
         </p>
+        <div class="hero-icons">
+          ${heroImages}
+        </div>
       `;
 
       playerSection.appendChild(card);
