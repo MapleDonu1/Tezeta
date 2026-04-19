@@ -33,13 +33,7 @@ const roleColors = {
   Flex: "linear-gradient(135deg, #111827, #0f172a)"
 };
 
-// 🖼️ Role icons
-const roleIcons = {
-  Tank: "https://i.imgur.com/1uUfOtE.png",
-  DPS: "https://i.imgur.com/ujYKxX2.png",
-  Support: "https://i.imgur.com/uv1cYKz.png",
-  Flex: "https://i.imgur.com/xaQB8Xz.png"
-};
+
 
 fetch('team.json')
   .then(res => res.json())
@@ -68,7 +62,7 @@ fetch('team.json')
       card.innerHTML = `
         <h3>${player.name}</h3>
         <p style="display:flex; align-items:center; justify-content:center; gap:8px;">
-          <img src="${roleIcons[player.role]}" style="width:20px; height:20px;" alt="${player.role} icon">
+          <img src="${player.roleicon}" style="width:20px; height:20px;" alt="${player.role} icon">
           ${player.role}
         </p>
       `;
