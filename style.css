@@ -257,7 +257,7 @@ a { text-decoration:none; color:inherit; }
 
 .team-hero h1 {
   color: var(--team-primary);
-  text-shadow: 0 0 6px var(--team-secondary)66;
+  text-shadow: 0 0 6px var(--team-secondary);
 }
 
 #player-section .team-card:hover {
