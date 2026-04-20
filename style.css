@@ -255,9 +255,10 @@ a { text-decoration:none; color:inherit; }
   border: 1px solid var(--team-primary);
 
 }
+
 .team-hero h1 {
   color: var(--team-primary);
-  text-shadow: 0 0 12px var(--team-secondary);
+  text-shadow: 0 0 6px var(--team-secondary)66;
 }
 
 #player-section .team-card:hover {
