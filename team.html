@@ -18,6 +18,7 @@
   <h1 id="team-name"></h1>
   <p id="team-role"></p>
   <div id="team-meta" class="team-meta"></div>
+  <div id="team-stats" class="team-stats"></div>
 </section>
 
 <section class="team-section" id="player-section"></section>
@@ -68,6 +69,51 @@ document.querySelector(".team-hero").style.background = `
       ${team.captain ? `<span class="meta-pill">Captain: ${team.captain}</span>` : ""}
       ${team.recruiting ? `<span class="meta-pill recruiting-pill">Recruiting</span>` : ""}
     `;
+
+    const statsBox = document.getElementById("team-stats");
+
+    if (team.stats?.status === "offseason") {
+      statsBox.innerHTML = `
+        <div class="stat-offseason">
+          Off Season<br>
+          <span class="offseason-sub">No active matches</span>
+        </div>
+      `;
+    } else if (team.stats) {
+      const wins = team.stats.wins ?? 0;
+      const losses = team.stats.losses ?? 0;
+      const total = wins + losses;
+      const winRate = total > 0 ? Math.round((wins / total) * 100) : 0;
+
+      statsBox.innerHTML = `
+        ${team.stats.league ? `
+          <div class="stat-card">
+            <span class="stat-label">League</span>
+            <span class="stat-value">${team.stats.league}</span>
+          </div>
+        ` : ""}
+        <div class="stat-card">
+          <span class="stat-label">Wins</span>
+          <span class="stat-value">${wins}</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Losses</span>
+          <span class="stat-value">${losses}</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Win Rate</span>
+          <span class="stat-value">${winRate}%</span>
+        </div>
+        ${team.stats.placement ? `
+          <div class="stat-card">
+            <span class="stat-label">Placement</span>
+            <span class="stat-value">${team.stats.placement}</span>
+          </div>
+        ` : ""}
+      `;
+    } else {
+      statsBox.innerHTML = "";
+    } 
 
     const playerSection = document.getElementById("player-section");
     playerSection.innerHTML = "";
