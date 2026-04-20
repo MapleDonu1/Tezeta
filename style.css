@@ -316,4 +316,77 @@ a { text-decoration:none; color:inherit; }
   color: #aaa;
   margin-top: 6px;
   font-weight: 400;
+
+}
+.match-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 20px 10px;
+}
+
+.match-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--team-primary);
+}
+
+.team-matches {
+  display: grid;
+  gap: 16px;
+}
+
+.match-card {
+  background: rgba(17, 17, 17, 0.9);
+  border: 1px solid var(--team-primary);
+  border-radius: 16px;
+  padding: 16px 18px;
+}
+
+.match-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.match-opponent {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.match-type {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+.match-type.upcoming {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.match-type.completed {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--team-primary);
+}
+
+.match-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #a1a1a1;
+  font-size: 0.95rem;
+}
+
+.match-empty {
+  text-align: center;
+  padding: 18px;
+  border: 1px solid var(--team-primary);
+  border-radius: 16px;
+  background: rgba(17, 17, 17, 0.8);
+  color: #a1a1a1;
 }
