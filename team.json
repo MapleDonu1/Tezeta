@@ -18,6 +18,7 @@
     "stats": {
       "status": "offseason"
     },
+    "matches": [],
     "players": [
       {
         "name": "Jb",
@@ -66,6 +67,20 @@
       "losses": 2,
       "placement": "Open Playoffs"
     },
+   "matches": [
+     {
+       "opponent": "Ilaid Artemis",
+       "date": "TBD",
+       "time": "",
+       "type": "upcoming"
+     },
+     {
+       "opponent": "Diamonds",
+       "date": "2026-04-17",
+       "result": "W 3-2",
+       "type": "completed"
+     }
+   ],
     "players": [
       {
         "name": "M21x",
@@ -180,6 +195,20 @@
       "losses": 3,
       "placement": "GM Playoffs"
     },
+    "matches": [
+      {
+        "opponent": "TBD",
+        "date": "TBD",
+        "time": "",
+        "type": "upcoming"
+      },
+      {
+        "opponent": "Hashira",
+        "date": "2026-04-16",
+        "result": "L 0-3",
+        "type": "completed"
+      }
+    ],
     "players": [
       {
         "name": "LastKnight",
@@ -312,6 +341,7 @@
      "stats": {
       "status": "offseason"
     },
+    "matches": [],
     "players": [
       {
         "name": "Azrael",
