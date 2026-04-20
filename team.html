@@ -21,6 +21,11 @@
   <div id="team-stats" class="team-stats"></div>
 </section>
 
+<section class="match-section">
+  <h2>Schedule</h2>
+  <div id="team-matches" class="team-matches"></div>
+</section>
+
 <section class="team-section" id="player-section"></section>
 
 <script>
@@ -114,6 +119,39 @@ document.querySelector(".team-hero").style.background = `
     } else {
       statsBox.innerHTML = "";
     } 
+
+    const matchesBox = document.getElementById("team-matches");
+
+    if (team.stats?.status === "offseason") {
+      matchesBox.innerHTML = `
+        <div class="match-empty">
+          No scheduled matches during the off season.
+        </div>
+      `;
+    } else if (team.matches && team.matches.length > 0) {
+      matchesBox.innerHTML = team.matches.map(match => `
+        <div class="match-card">
+          <div class="match-top">
+            <span class="match-opponent">vs ${match.opponent}</span>
+            <span class="match-type ${match.type}">${match.type}</span>
+          </div>
+          <div class="match-details">
+            <span>${match.date}</span>
+            ${
+              match.type === "upcoming"
+                ? `<span>${match.time || ""}</span>`
+                : `<span>${match.result || ""}</span>`
+            }
+          </div>
+        </div>
+      `).join("");
+    } else {
+      matchesBox.innerHTML = `
+        <div class="match-empty">
+          No matches available right now.
+        </div>
+      `;
+    }
 
     const playerSection = document.getElementById("player-section");
     playerSection.innerHTML = "";
