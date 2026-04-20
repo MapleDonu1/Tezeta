@@ -1,13 +1,15 @@
-/* Global Styles */
 body { font-family: 'Inter', sans-serif; background:#0a0a0a; color:#fff; margin:0; }
 a { text-decoration:none; color:inherit; }
 
-/* Hero */
 .hero { text-align:center; padding:100px 20px 80px; }
 .hero h1 { font-size:3rem; margin-bottom:20px; }
 .hero p { max-width:600px; margin:0 auto; color:#a1a1a1; }
 
-/* Team Grid */
+:root {
+  --team-primary: #61dafb;
+  --team-secondary: #111;
+}
+
 .team-section { max-width:1200px; margin:0 auto; padding:60px 20px; display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:24px; }
 .team-card { position:relative; background:#111; border-radius:16px; padding:20px; text-align:center; overflow:hidden; transition:all 0.3s ease; opacity:0; transform:translateY(40px); }
 .team-card:hover { transform:translateY(-8px); box-shadow:0 10px 30px rgba(0,0,0,0.3); }
@@ -232,7 +234,7 @@ a { text-decoration:none; color:inherit; }
 
 .meta-pill {
   background: #111;
-  border: 1px solid #222;
+  border: 1px solid var(--team-primary);
   color: #fff;
   padding: 8px 14px;
   border-radius: 999px;
@@ -243,4 +245,22 @@ a { text-decoration:none; color:inherit; }
 .recruiting-pill {
   background: #14532d;
   border-color: #166534;
+}
+
+.team-hero h1 {
+  color: var(--team-primary);
+}
+
+.meta-pill {
+  border: 1px solid var(--team-primary);
+
+}
+.team-hero h1 {
+  color: var(--team-primary);
+  text-shadow: 0 0 12px var(--team-secondary);
+}
+
+#player-section .team-card:hover {
+  border: 1px solid var(--team-primary);
+  box-shadow: 0 0 20px var(--team-secondary);
 }
