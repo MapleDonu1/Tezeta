@@ -257,10 +257,63 @@ a { text-decoration:none; color:inherit; }
 
 .team-hero h1 {
   color: var(--team-primary);
-  text-shadow: 0 0 6px var(--team-secondary);
+  text-shadow: 0 0 6px var(--team-secondary)66;
 }
 
 #player-section .team-card:hover {
   border: 1px solid var(--team-primary);
   box-shadow: 0 0 20px var(--team-secondary);
+}
+
+.team-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 14px;
+  max-width: 900px;
+  margin: 24px auto 0;
+  padding: 0 20px;
+}
+
+.stat-card {
+  background: rgba(17, 17, 17, 0.9);
+  border: 1px solid var(--team-primary);
+  border-radius: 16px;
+  padding: 16px 14px;
+  text-align: center;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #a1a1a1;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.stat-offseason {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 16px;
+  border: 1px solid var(--team-primary);
+  background: rgba(17,17,17,0.8);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--team-primary);
+}
+
+.offseason-sub {
+  display: block;
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-top: 6px;
+  font-weight: 400;
 }
