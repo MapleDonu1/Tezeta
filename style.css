@@ -170,3 +170,20 @@ a { text-decoration:none; color:inherit; }
 #player-section .hero-icon:hover {
   transform: scale(1.1);
 }
+
+#player-section .team-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.5s ease forwards;
+}
+
+#player-section .team-card:nth-child(n) {
+  animation-delay: calc(0.05s * var(--i));
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
