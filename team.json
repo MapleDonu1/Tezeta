@@ -15,6 +15,9 @@
     "founded": "2023",
     "captain": "Micro",
     "recruiting": true,
+    "stats": {
+      "status": "inactive",
+    },
     "players": [
       {
         "name": "Jb",
@@ -56,6 +59,13 @@
     "founded": "2025",
     "captain": "Maple",
     "recruiting": false,
+    "stats": {
+      "status": "active",
+      "league": "CGL",
+      "wins": 6,
+      "losses": 2,
+      "placement": "Open Playoffs"
+    },
     "players": [
       {
         "name": "M21x",
@@ -163,6 +173,13 @@
     "founded": "2026",
     "captain": "LastKnight",
     "recruiting": false,
+    "stats": {
+      "status": "active",
+      "league": "CGL",
+      "wins": 5,
+      "losses": 3,
+      "placement": "GM Playoffs"
+    },
     "players": [
       {
         "name": "LastKnight",
@@ -292,6 +309,9 @@
     "founded": "2026",
     "captain": "Azrael",
     "recruiting": true,
+     "stats": {
+      "status": "inactive",
+    },
     "players": [
       {
         "name": "Azrael",
