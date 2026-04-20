@@ -48,6 +48,16 @@ fetch('team.json')
     document.getElementById("team-logo").src = team.photo;
     document.getElementById("team-logo").alt = `${team.name} logo`;
 
+    const primary = team.colors?.primary || "#61dafb";
+    const secondary = team.colors?.secondary || "#111";
+
+document.querySelector(".team-hero").style.background = `
+  linear-gradient(135deg, ${secondary}, ${primary}33, #0a0a0a 75%)
+`;
+
+    document.documentElement.style.setProperty("--team-primary", primary);
+    document.documentElement.style.setProperty("--team-secondary", secondary);
+
     const meta = document.getElementById("team-meta");
 
     meta.innerHTML = `
