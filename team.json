@@ -1,6 +1,4 @@
-[
-  {
-    "name": "Tezeta",
+ "name": "Tezeta",
     "colors": {
     "primary": "#765fa5",
     "secondary": "#d2c0fe"
@@ -16,7 +14,7 @@
     "captain": "Micro",
     "recruiting": true,
     "stats": {
-      "status": "inactive",
+      "status": "offseason"
     },
     "players": [
       {
@@ -310,7 +308,7 @@
     "captain": "Azrael",
     "recruiting": true,
      "stats": {
-      "status": "inactive",
+      "status": "offseason"
     },
     "players": [
       {
