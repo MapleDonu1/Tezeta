@@ -5,6 +5,12 @@
     "photo": "https://i.imgur.com/cvW4wV0.png",
     "bio": "Top 8 MRC team",
     "teampage": "tezeta",
+    "region": "NA",
+    "game": "Marvel Rivals",
+    "tier": "Tier 1",
+    "founded": "2023",
+    "captain": "Micro",
+    "recruiting": true,
     "players": [
       {
         "name": "Jb",
@@ -36,6 +42,12 @@
     "photo": "https://i.imgur.com/IuHdD9O.png",
     "bio": "Open tier CGL team",
     "teampage": "subsun",
+    "region": "NA",
+    "game": "Overwatch",
+    "tier": "Open",
+    "founded": "2025",
+    "captain": "Maple",
+    "recruiting": false,
     "players": [
       {
         "name": "M21x",
@@ -133,6 +145,12 @@
     "photo": "https://i.imgur.com/2VosThF.png",
     "bio": "Gm tier CGL team",
     "teampage": "camazotz",
+    "region": "NA",
+    "game": "Overwatch",
+    "tier": "GM",
+    "founded": "2026",
+    "captain": "LastKnight",
+    "recruiting": false,
     "players": [
       {
         "name": "LastKnight",
@@ -240,8 +258,8 @@
         "roleicon": "https://i.imgur.com/uv1cYKz.png",
         "heroes": [
           "https://i.imgur.com/KpUh5fe.png",
-          "https://i.imgur.com/bGjJwgA.png",
-          "https://i.imgur.com/3zx0UHa.png"
+          "https://i.imgur.com/KpUh5fe.png",
+          "https://i.imgur.com/KpUh5fe.png"
         ]
       }
     ]
@@ -252,6 +270,12 @@
     "photo": "https://i.imgur.com/u6mmpTR.png",
     "bio": "Masters tier CGL team",
     "teampage": "Cerberus",
+    "region": "NA",
+    "game": "Overwatch",
+    "tier": "Masters",
+    "founded": "2026",
+    "captain": "Azrael",
+    "recruiting": true,
     "players": [
       {
         "name": "Azrael",
