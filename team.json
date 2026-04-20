@@ -1,6 +1,10 @@
 [
   {
     "name": "Tezeta",
+    "colors": {
+    "primary": "#765fa5",
+    "secondary": "#d2c0fe"
+    },
     "role": "Marvel Rivals MRC",
     "photo": "https://i.imgur.com/cvW4wV0.png",
     "bio": "Top 8 MRC team",
@@ -38,6 +42,10 @@
   },
   {
     "name": "Subsun",
+    "colors": {
+      "primary": "#ffe47e",
+      "secondary": "#91fcf0"
+    },
     "role": "Overwatch CGL",
     "photo": "https://i.imgur.com/IuHdD9O.png",
     "bio": "Open tier CGL team",
@@ -141,6 +149,10 @@
   },
   {
     "name": "Camazotz",
+    "colors": {
+      "primary": "#b0353a",
+      "secondary": "#000000"
+    },
     "role": "Overwatch CGL",
     "photo": "https://i.imgur.com/2VosThF.png",
     "bio": "Gm tier CGL team",
@@ -266,6 +278,10 @@
   },
   {
     "name": "Cerberus",
+    "colors": {
+      "primary": "#e14d01",
+      "secondary": "#0d1c3d"
+    },
     "role": "Overwatch CGL",
     "photo": "https://i.imgur.com/u6mmpTR.png",
     "bio": "Masters tier CGL team",
