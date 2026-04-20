@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="back-container">
+  <a href="index.html" class="back-button">← Back</a>
+</div>
+
+<section class="hero team-hero">
+  <h1 id="player-name"></h1>
+  <p id="player-role"></p>
+</section>
+
+<section class="team-section" id="player-detail"></section>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const playerId = params.get("player");
+
+fetch("team.json")
+  .then(res => res.json())
+  .then(data => {
+
+    let foundPlayer = null;
+
+    data.forEach(team => {
+      team.players.forEach(player => {
+        if (player.id === playerId) {
+          foundPlayer = player;
+        }
+      });
+    });
+
+    if (!foundPlayer) {
+      document.getElementById("player-name").textContent = "Player not found";
+      return;
+    }
+
+    document.getElementById("player-name").textContent = foundPlayer.name;
+    document.getElementById("player-role").textContent = foundPlayer.role;
+
+    const container = document.getElementById("player-detail");
+
+    const heroImages = (foundPlayer.heroes || [])
+      .map(hero => `<img class="hero-icon" src="${hero}">`)
+      .join("");
+
+    container.innerHTML = `
+      <div class="team-card">
+        <h3>Top Heroes</h3>
+        <div class="hero-icons">${heroImages}</div>
+      </div>
+    `;
+  });
+</script>
+
+</body>
+</html>
