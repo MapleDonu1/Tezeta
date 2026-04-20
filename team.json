@@ -1,4 +1,6 @@
- "name": "Tezeta",
+[
+  {
+    "name": "Tezeta",
     "colors": {
     "primary": "#765fa5",
     "secondary": "#d2c0fe"
