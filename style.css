@@ -260,8 +260,12 @@ a { text-decoration:none; color:inherit; }
   text-shadow: 0 0 6px var(--team-secondary);
 }
 
+#player-section .team-card {
+  border: 1px solid transparent;
+}
+
 #player-section .team-card:hover {
-  border: 1px solid var(--team-primary);
+  border-color: var(--team-primary);
   box-shadow: 0 0 20px var(--team-secondary);
 }
 
